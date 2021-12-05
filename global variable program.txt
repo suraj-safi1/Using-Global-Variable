@@ -1,0 +1,20 @@
+#global variable program
+def myfun(): #global 
+    global x
+    x=200
+myfun()
+print('the valueof x', x)
+y= 45
+z=x+y
+print(z)
+y= input("Enter second number=")
+y=int(y)
+z= x+y
+print("the sum of two integer is=",z)
+z=y-x
+print("the substraction of two integer is=",z)
+z=x*y
+print("the mul of two integer is=",z)
+z=float(z)
+z=y/x
+print("the div of two integer is=",z)
